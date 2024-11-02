@@ -146,52 +146,52 @@ public class Main {
 
         switch(month) {
             case 1:
-                monthName = " Yanvar";
-                season = "Qis";
+                monthName = " January";
+                season = "winter";
                 break;
             case 2:
-                monthName = "Fevral";
-                season = "Qis";
+                monthName = "February";
+                season = "winter";
                 break;
             case 3:
-                monthName = "Mart";
-                season = "Yaz";
+                monthName = "March";
+                season = "spring";
                 break;
             case 4:
-                monthName = "Aprel";
-                season = "Yaz";
+                monthName = "April";
+                season = "spring";
                 break;
             case 5:
                 monthName = "May";
-                season = "Yaz";
+                season = "spring";
                 break;
             case 6:
-                monthName = "Iyun";
-                season = "Yay";
+                monthName = "June";
+                season = "summer";
                 break;
             case 7:
-                monthName = "Iyul";
-                season = "Yay";
+                monthName = "July";
+                season = "summer";
                 break;
             case 8:
-                monthName = "Avqust";
-                season = "Yay";
+                monthName = "August";
+                season = "summer";
                 break;
             case 9:
-                monthName = "Sentyabr";
-                season = "Payiz";
+                monthName = "September";
+                season = "autumn";
                 break;
             case 10:
-                monthName = "Oktyabr";
-                season = "Payiz";
+                monthName = "October";
+                season = "autumn";
                 break;
             case 11:
-                monthName = "Noyabr";
-                season = "Payiz";
+                monthName = "November";
+                season = "autumn";
                 break;
             case 12:
-                monthName = "Dekabr";
-                season = "Qis";
+                monthName = "December";
+                season = "winter";
                 break;
             default:
                 System.out.println("Daxil edilen eded 1-12 araliginda olmalidir" );
