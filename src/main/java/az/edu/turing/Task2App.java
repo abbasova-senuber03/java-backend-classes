@@ -11,7 +11,7 @@ public class Task2App {
         System.out.print("Üçüncü ədədi daxil edin (1000-dən kiçik): ");
         int c = scanner.nextInt();
         if (a > 1000 || b > 1000 || c > 1000) {
-            System.out.println("Zəhmət olmasa, 1000-i aşmayan ədədlər daxil edin.");
+            System.out.println(" 1000-i kecmeyen ədədlər daxil edin.");
             scanner.close();
             return;
         }
