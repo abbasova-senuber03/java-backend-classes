@@ -89,7 +89,7 @@ public class Main {
 
                         int i = 0;
 
-                        for (; i <= 10; ){
+                        for (; i <= 10; ) {
 
                             System.out.println(i);
                         }
@@ -98,132 +98,135 @@ public class Main {
                         System.out.println(i);
 
 
-
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a number: \t");
-        int number = scan.nextInt();
-        System.out.println("Number is: " + number);
-        System.out.print("Cutdurse true, tekdirse false: \t");
-                System.out.print(number % 2 == 0 && true || false);
-
-
-        int f = 7;
-        int e = ++f;
-        System.out.println( "f = " + f +", e = " + e);
+                        Scanner scan = new Scanner(System.in);
+                        System.out.print("Enter a number: \t");
+                        int number = scan.nextInt();
+                        System.out.println("Number is: " + number);
+                        System.out.print("Cutdurse true, tekdirse false: \t");
+                        System.out.print(number % 2 == 0 && true || false);
 
 
+                        int f = 7;
+                        int e = ++f;
+                        System.out.println("f = " + f + ", e = " + e);
 
 
-        Scanner scanner = new Scanner(System.in);
+                        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Bir eded daxil edin: ");
-        int Number = scanner.nextInt();
+                        System.out.print("Bir eded daxil edin: ");
+                        int Number = scanner.nextInt();
 
-        if(number == 0) {
-            System.out.println("Daxil edilen eded 0-dir" );
-        } else {
-            if (number % 2 == 0) {
-                System.out.println("Daxil edilen eded cutdur." );
-            }else{
-                System.out.println("Daxil edilen ede tekdir.");
-
-
-        if(number > 0) {
-            System.out.println("Daxil edilen eded pozitivdir.") ;
-        }else{
-            System.out.println("Daxil edilen eded neqativdir.");
-            }
-        }
+                        if (number == 0) {
+                            System.out.println("Daxil edilen eded 0-dir");
+                        } else {
+                            if (number % 2 == 0) {
+                                System.out.println("Daxil edilen eded cutdur.");
+                            } else {
+                                System.out.println("Daxil edilen ede tekdir.");
 
 
-        Scanner Scanner = new Scanner(System.in);
-
-        System.out.print("Bir eded daxil edin(1-12):");
-        int month = scanner.nextInt();
-
-        String season = "";
-        String monthName = "";
-
-        switch(month) {
-            case 1:
-                monthName = " January";
-                season = "winter";
-                break;
-            case 2:
-                monthName = "February";
-                season = "winter";
-                break;
-            case 3:
-                monthName = "March";
-                season = "spring";
-                break;
-            case 4:
-                monthName = "April";
-                season = "spring";
-                break;
-            case 5:
-                monthName = "May";
-                season = "spring";
-                break;
-            case 6:
-                monthName = "June";
-                season = "summer";
-                break;
-            case 7:
-                monthName = "July";
-                season = "summer";
-                break;
-            case 8:
-                monthName = "August";
-                season = "summer";
-                break;
-            case 9:
-                monthName = "September";
-                season = "autumn";
-                break;
-            case 10:
-                monthName = "October";
-                season = "autumn";
-                break;
-            case 11:
-                monthName = "November";
-                season = "autumn";
-                break;
-            case 12:
-                monthName = "December";
-                season = "winter";
-                break;
-            default:
-                System.out.println("Daxil edilen eded 1-12 araliginda olmalidir" );
-                return;
+                                if (number > 0) {
+                                    System.out.println("Daxil edilen eded pozitivdir.");
+                                } else {
+                                    System.out.println("Daxil edilen eded neqativdir.");
+                                }
+                            }
 
 
+                            Scanner Scanner = new Scanner(System.in);
+
+                            System.out.print("Bir eded daxil edin(1-12):");
+                            int month = scanner.nextInt();
+
+                            String season = "";
+                            String monthName = "";
+
+                            switch (month) {
+                                case 1:
+                                    monthName = " January";
+                                    season = "winter";
+                                    break;
+                                case 2:
+                                    monthName = "February";
+                                    season = "winter";
+                                    break;
+                                case 3:
+                                    monthName = "March";
+                                    season = "spring";
+                                    break;
+                                case 4:
+                                    monthName = "April";
+                                    season = "spring";
+                                    break;
+                                case 5:
+                                    monthName = "May";
+                                    season = "spring";
+                                    break;
+                                case 6:
+                                    monthName = "June";
+                                    season = "summer";
+                                    break;
+                                case 7:
+                                    monthName = "July";
+                                    season = "summer";
+                                    break;
+                                case 8:
+                                    monthName = "August";
+                                    season = "summer";
+                                    break;
+                                case 9:
+                                    monthName = "September";
+                                    season = "autumn";
+                                    break;
+                                case 10:
+                                    monthName = "October";
+                                    season = "autumn";
+                                    break;
+                                case 11:
+                                    monthName = "November";
+                                    season = "autumn";
+                                    break;
+                                case 12:
+                                    monthName = "December";
+                                    season = "winter";
+                                    break;
+                                default:
+                                    System.out.println("Daxil edilen eded 1-12 araliginda olmalidir");
+                                    return;
 
 
-            for (char ch = 'A'; ch <= 'Z'; ch++) {
-                System.out.print(ch + " " );
-            }
+//                                for (char ch = 'A'; ch <= 'Z'; ch++) {
+//                                    System.out.print(ch + " ");
+//                                }
 
-            System.out.println();
+                              //  System.out.println();
 
-            for (char ch = 'a'; ch <= 'z'; ch++) {
-                System.out.print(ch + " " );
-            }
-
-
-            }
-        }
+//                                for (char ch = 'a'; ch <= 'z'; ch++) {
+//                                    System.out.print(ch + " ");
+//                                }
 
 
+//            if (num < 0) {
+//                System.out.println("Neqative");
+//            }else if (num >0) {
+//                System.out.println("Positive");
+//            }else {
+//                System.out.println("Zero");
 
-            }
+                            }
 
-        }
 
+                        }
                     }
+
+
                 }
 
         }
+
+    }
+}
+
 
 
 
