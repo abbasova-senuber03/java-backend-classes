@@ -10,11 +10,10 @@ public class Task3App {
         while (totalAmount < S) {
             totalAmount += amountThisYear;
             System.out.println("Age: " + age + ", Amount this year: " + amountThisYear + ", Total: " + totalAmount);
-            age++; // Increment age for next year
+            age++;
             amountThisYear = (amountThisYear * 2) + age;
         }
 
-        // Output the result
         System.out.println("Buratino will reach at least " + S + " dollars on birthday: " + age);
     }
 }
