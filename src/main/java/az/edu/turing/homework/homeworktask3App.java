@@ -58,8 +58,6 @@ public class homeworktask3App {
                     }
                 }
             }
-
-            scanner.close();
         }
     }
 
