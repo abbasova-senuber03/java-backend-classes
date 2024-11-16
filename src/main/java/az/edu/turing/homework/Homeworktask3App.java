@@ -1,6 +1,6 @@
 package az.edu.turing.homework;
 import java.util.Scanner;
-public class homeworktask3App {
+public class Homeworktask3App {
         public static void main(String[] args) {
             String[][] schedule = new String[7][2];
             schedule[0][0] = "Sunday"; schedule[0][1] = "do homework";
